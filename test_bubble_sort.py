@@ -15,7 +15,8 @@ def check(data):
 check(localElement)
 print(check(localElement))
 
-localElement = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+for i in range(100):
+    localElement.append('0')
 bubble.bubble_sort(localElement)
 check(localElement)
 print(check(localElement))
@@ -61,4 +62,4 @@ bubble.bubble_sort(localElement)
 check(localElement)
 print(check(localElement))
 
-#написать ассертами
+#assert check(localElement) == False
