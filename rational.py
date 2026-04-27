@@ -60,7 +60,7 @@ def div(a: Rational, b: Rational):
     return create(num, den)
 
 
-def pover(r: Rational, power):
+def power(r: Rational, power):
     if power == 0:
         return create(1, 1)
     if power > 0:
